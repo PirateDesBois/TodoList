@@ -17235,6 +17235,7 @@ textarea.form-control-lg {
 body {
   background: #22c1c3 no-repeat;
   background: linear-gradient(0deg, #22c1c3 0%, #fdbb2d 100%) no-repeat;
+  height: 100vh;
 }
 
 .bg-grey {
@@ -17242,8 +17243,9 @@ body {
 }
 
 .divTitle {
-  border: 1px solid #5a5a5a31;
+  border: 1px dashed #5a5a5a31;
   width: 100%;
+  border-radius: 15px;
 }
 
 h2, .h2 {
@@ -17259,6 +17261,15 @@ h2, .h2 {
   width: 600px;
   height: 40px;
   border: none;
+}
+
+li {
+  background-color: none;
+}
+
+p {
+  border: none;
+  outline: none;
 }
 
 /*# sourceMappingURL=style.css.map */
